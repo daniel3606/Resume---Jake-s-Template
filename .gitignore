@@ -1,0 +1,12 @@
+# Ignore all PDF files in root directory
+*.pdf
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Unused folder
+Unused/
+
+# But keep PDF files in resume+cover folder
+!resume+cover/**/*.pdf
+
